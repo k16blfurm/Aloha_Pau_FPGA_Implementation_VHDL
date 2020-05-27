@@ -65,9 +65,10 @@ start_step write_bitstream
 set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
-  set_param chipscope.maxJobs 1
+  set_param chipscope.maxJobs 2
+  set_param xicom.use_bs_reader 1
   open_checkpoint practice_routed.dcp
-  set_property webtalk.parent_dir /home/blaine/Desktop/Aloha_Pau/practice.cache/wt [current_project]
+  set_property webtalk.parent_dir C:/Users/Blaine/Documents/GitHub/Aloha_Pau_FPGA_Implementation_VHDL/practice.cache/wt [current_project]
   catch { write_mem_info -force practice.mmi }
   write_bitstream -force practice.bit 
   catch {write_debug_probes -quiet -force practice}

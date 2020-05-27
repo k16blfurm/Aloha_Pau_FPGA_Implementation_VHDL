@@ -55,9 +55,9 @@ set_property PACKAGE_PIN F12 [get_ports {ARDUINO_A2     }];  # "F12.ARDUINO_A2"
 # Note that ARDUINO_A[3:5] are shared with LEDs and a switch. Therefore
 # these next three pin locations get repeated. Depending on which features
 # you use, one or the other constraints should be commented out.
-set_property PACKAGE_PIN E13 [get_ports {ARDUINO_A3     }];  # "E13.ARDUINO_A3"
-set_property PACKAGE_PIN E12 [get_ports {ARDUINO_A4     }];  # "E12.ARDUINO_A4"
-set_property PACKAGE_PIN E11 [get_ports {ARDUINO_A5     }];  # "E11.ARDUINO_A5"
+#set_property PACKAGE_PIN E13 [get_ports {ARDUINO_A3     }];  # "E13.ARDUINO_A3"
+#set_property PACKAGE_PIN E12 [get_ports {ARDUINO_A4     }];  # "E12.ARDUINO_A4"
+#set_property PACKAGE_PIN E11 [get_ports {ARDUINO_A5     }];  # "E11.ARDUINO_A5"
 # Bank 34
 set_property PACKAGE_PIN R8  [get_ports {ARDUINO_IO0    }];  # "R8.ARDUINO_IO0"
 set_property PACKAGE_PIN P8  [get_ports {ARDUINO_IO1    }];  # "P8.ARDUINO_IO1"
@@ -234,9 +234,10 @@ set_property IOSTANDARD LVCMOS33 [get_ports -of_objects [get_iobanks 34]];
 # Reset
 #     set_property PACKAGE_PIN B5  [get_ports {PS_2_AS_RST    }];  # "B5.PS_2_AS_RST"
 # User I/O
-#     set_property PACKAGE_PIN C13 [get_ports {PS_LED_G       }];  # "C13.PS_LED_G"
-#     set_property PACKAGE_PIN A12 [get_ports {PS_LED_R       }];  # "A12.PS_LED_R"
-#     set_property PACKAGE_PIN D8  [get_ports {PS_PB          }];  # "D8.PS_PB"
+     set_property PACKAGE_PIN C13 [get_ports {PS_LED_G       }];  # "C13.PS_LED_G"
+     set_property PACKAGE_PIN A12 [get_ports {PS_LED_R       }];  # "A12.PS_LED_R"
+     set_property PACKAGE_PIN D8  [get_ports {PS_PB          }];  # "D8.PS_PB"
+# Micron QSPI
 # Micron QSPI
 #     set_property PACKAGE_PIN A10 [get_ports {QSPI_CLK_MIO6_R}];  # "A10.QSPI_CLK-MIO6_R"
 #     set_property PACKAGE_PIN A5  [get_ports {QSPI_CS_N      }];  # "A5.QSPI_CS_N"

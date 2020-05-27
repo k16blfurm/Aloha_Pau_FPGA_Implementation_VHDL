@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z007sclg225-2" LaunchTime="1590487211">
+<GenRun Id="synth_1" LaunchPart="xc7z007sclg225-2" LaunchTime="1590569434">
   <File Type="PA-TCL" Name="practice.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="practice_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="practice_reports.tcl"/>
   <File Type="RDS-RDS" Name="practice.vds"/>
   <File Type="RDS-UTIL" Name="practice_utilization_synth.rpt"/>
-  <File Type="RDS-DCP" Name="practice.dcp"/>
   <File Type="RDS-UTIL-PB" Name="practice_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="practice.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="practice_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="practice_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/practice.vhd">
@@ -39,6 +42,7 @@
       </FileInfo>
     </File>
     <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/Downloads/MiniZed_Constraints_Rev1_170613.xdc"/>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>

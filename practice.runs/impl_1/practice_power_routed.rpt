@@ -1,8 +1,8 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version     : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
-| Date             : Tue May 26 00:02:12 2020
-| Host             : blaine-MacBookAir running 64-bit Ubuntu 18.04.4 LTS
+| Tool Version     : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date             : Tue May 26 22:52:11 2020
+| Host             : DESKTOP-LRPJCMP running 64-bit major release  (build 9200)
 | Command          : report_power -file practice_power_routed.rpt -pb practice_power_summary_routed.pb -rpx practice_power_routed.rpx
 | Design           : practice
 | Device           : xc7z007sclg225-2
@@ -54,7 +54,7 @@ Table of Contents
 +--------------+-----------+----------+-----------+-----------------+
 | Slice Logic  |     0.000 |        2 |       --- |             --- |
 |   Others     |     0.000 |        2 |       --- |             --- |
-| I/O          |     0.000 |        8 |        54 |           14.81 |
+| I/O          |     0.000 |        9 |        54 |           16.67 |
 | Static Power |     0.090 |          |           |                 |
 | Total        |     0.090 |          |           |                 |
 +--------------+-----------+----------+-----------+-----------------+

@@ -1,16 +1,10 @@
-set_property SRC_FILE_INFO {cfile:/tools/Xilinx/Vivado/2019.2/bin/practice/practice.srcs/constrs_1/imports/Downloads/MiniZed_Constraints_Rev1_170613.xdc rfile:../../../practice.srcs/constrs_1/imports/Downloads/MiniZed_Constraints_Rev1_170613.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/Blaine/Documents/GitHub/Aloha_Pau_FPGA_Implementation_VHDL/practice.srcs/constrs_1/imports/Downloads/MiniZed_Constraints_Rev1_170613.xdc rfile:../../../practice.srcs/constrs_1/imports/Downloads/MiniZed_Constraints_Rev1_170613.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:52 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN F14 [get_ports {ARDUINO_A0     }];  # "F14.ARDUINO_A0"
 set_property src_info {type:XDC file:1 line:53 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN F13 [get_ports {ARDUINO_A1     }];  # "F13.ARDUINO_A1"
 set_property src_info {type:XDC file:1 line:54 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN F12 [get_ports {ARDUINO_A2     }];  # "F12.ARDUINO_A2"
-set_property src_info {type:XDC file:1 line:58 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN E13 [get_ports {ARDUINO_A3     }];  # "E13.ARDUINO_A3"
-set_property src_info {type:XDC file:1 line:59 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN E12 [get_ports {ARDUINO_A4     }];  # "E12.ARDUINO_A4"
-set_property src_info {type:XDC file:1 line:60 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN E11 [get_ports {ARDUINO_A5     }];  # "E11.ARDUINO_A5"
 set_property src_info {type:XDC file:1 line:62 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN R8  [get_ports {ARDUINO_IO0    }];  # "R8.ARDUINO_IO0"
 set_property src_info {type:XDC file:1 line:63 export:INPUT save:INPUT read:READ} [current_design]
@@ -115,3 +109,9 @@ set_property src_info {type:XDC file:1 line:147 export:INPUT save:INPUT read:REA
 set_property PACKAGE_PIN R12 [get_ports {PMOD2_D3_P     }];  # "R12.PMOD2_D3_P"
 set_property src_info {type:XDC file:1 line:162 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD LVCMOS33 [get_ports -of_objects [get_iobanks 34]];
+set_property src_info {type:XDC file:1 line:237 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN C13 [get_ports {PS_LED_G       }];  # "C13.PS_LED_G"
+set_property src_info {type:XDC file:1 line:238 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN A12 [get_ports {PS_LED_R       }];  # "A12.PS_LED_R"
+set_property src_info {type:XDC file:1 line:239 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN D8  [get_ports {PS_PB          }];  # "D8.PS_PB"
